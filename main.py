@@ -7,7 +7,7 @@ from bot.pinterest import router as router_bot_pp
 import uvicorn 
 
 
-app = FastAPI(title="Multi Bot Publisher")
+app = FastAPI(title="Pinterest Publisher")
 
 app.include_router(router_bot_pp)
 app.include_router(router_pp)
